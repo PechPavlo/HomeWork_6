@@ -1,0 +1,12 @@
+button {
+    font-weight: bold;
+    color: goldenrod;
+}
+
+#longDiv {
+    width: 300px;
+    height: 200px;
+    border: 15px solid #E8C48F;
+    padding: 10px;
+    overflow: auto;
+}
