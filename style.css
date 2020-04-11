@@ -10,3 +10,17 @@ button {
     padding: 10px;
     overflow: auto;
 }
+.div1 {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #E8C48F;
+    padding: 10px;
+    overflow: auto;
+}
+.center {
+    position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  margin-left: -20px;
+  /* margin-top: -20px; */
+}
