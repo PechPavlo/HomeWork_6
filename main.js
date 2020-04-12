@@ -7,21 +7,21 @@ console.log('task 1 '+ elem.className);
 
 // task 2
 // Добавьте ему класс www
-elem.classList.add('WWW');
+elem.classList.add('www');
 console.log('task 2 '+elem.className);
 
 // task 3
 // Удалите у него класс www
-elem.classList.remove('WWW');
+elem.classList.remove('www');
 console.log('task 3 '+elem.className);
 
 // task 4
 // Проверьте наличие у него класса www
-console.log('task 4 '+elem.classList.contains('WWW'));
+console.log('task 4 '+elem.classList.contains('www'));
 
 // task 5
 // Добавьте ему класс www, если его нет и удалите - если есть.
-elem.classList.toggle('WWW');
+elem.classList.toggle('www');
 console.log('task 5 '+elem.className);
 
 // task 6
@@ -80,7 +80,7 @@ console.log('task 12 ' + document.querySelector('#ol-object'));
  чтобы каждый элемент стоял в своем li.
  */
 
- let arr = [12, 22, 'one', 'two', 'three'];
+ let arr = [12, 22, 33, 566565, 65655522];
 let ulTest = document.querySelector('#task13');
 
 for (let i = 0; i < arr.length; i++) {
@@ -110,10 +110,10 @@ for (let i = 0; i < arr1.length; i++) {
  // task 15
 // Дан элемент ul, а в нем li #elem. Вставьте перед элементом #elem новую li с текстом '!!!'.
 
-let ourli = document.createElement('li');
+let ourLi = document.createElement('li');
 let parent = document.querySelector('#task15');
-ourli.innerHTML = '!!!';
-parent.insertBefore(ourli,elem15);
+ourLi.innerHTML = '!!!';
+parent.insertBefore(ourLi,elem15);
 
 // task 16
 // Дан элемент #elem. Вставьте перед ним span с текстом '!!!'.
